@@ -1,0 +1,19 @@
+{
+  "name": "ranking-and-leaderboard",
+  "version": "1.0.0",
+  "description": "Service to calculate dynamic and rank of a player in linear time",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --timeout 5000 --recursive  --exit"
+  },
+  "author": "Murtaza Bagwala",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "3.0.0-rc5",
+    "winston-daily-rotate-file": "3.1.3"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "mocha": "6.2.0"
+  }
+}
